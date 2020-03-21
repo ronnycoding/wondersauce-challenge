@@ -1,7 +1,28 @@
-const HtmlWebpackPlugin = require('html-webpack-plugin');
-const path = require('path');
+const HtmlWebpackPlugin = require('html-webpack-plugin')
+const path = require('path')
 
 module.exports = {
+  module: {
+    rules: [
+      {
+        test: /\.css$/i,
+        use: [
+          'style-loader',
+          'css-loader',
+          {
+            loader: 'postcss-loader',
+            options: {
+              ident: 'postcss',
+              plugins: [
+                require('tailwindcss'),
+                require('autoprefixer'),
+              ],
+            },
+          },
+        ],
+      },
+    ],
+  },
   entry: './src/index.js',
   output: {
     path: path.resolve(__dirname, 'dist'),
@@ -18,4 +39,4 @@ module.exports = {
     compress: true,
     port: 9000
   }
-};
+}
