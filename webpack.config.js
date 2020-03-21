@@ -21,6 +21,10 @@ module.exports = {
           },
         ],
       },
+      {
+        test: /\.svg$/,
+        loader: 'svg-sprite-loader',
+      }
     ],
   },
   entry: './src/index.js',
