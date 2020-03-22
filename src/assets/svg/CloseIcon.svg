@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="12px" height="12px" viewBox="0 0 12 12" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 63.1 (92452) - https://sketch.com -->
+    <title>Close Icon</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Fixed_Grid" stroke="none" stroke-width="1" fill-rule="evenodd">
+        <g id="Article-Dashboard" transform="translate(-815.000000, -198.000000)" fill-rule="nonzero">
+            <g transform="translate(802.000000, 185.000000)">
+                <path id="CloseIcon" d="M23.6260288,13 L25,14.3739712 L20.373,19 L25,23.6260288 L23.6260288,25 L19,20.373 L14.3739712,25 L13,23.6260288 L17.626,19 L13,14.3739712 L14.3739712,13 L19,17.626 L23.6260288,13 Z"></path>
+            </g>
+        </g>
+    </g>
+</svg>

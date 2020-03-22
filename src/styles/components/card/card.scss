@@ -1,0 +1,25 @@
+.newsmedia-card {
+  position: relative;
+
+  .btn-close {
+    position: absolute;
+    top: -19px;
+    right: -19px;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    height: 38px;
+    justify-content: center;
+    width: 38px;
+    svg {
+      fill: #FFFFFF;
+      height: 12px;
+      width: 12px;
+    }
+    &:hover {
+      svg {
+        fill: #898C8E;
+      }
+    }
+  }
+}
