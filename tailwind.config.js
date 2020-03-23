@@ -134,6 +134,7 @@ module.exports = {
       '3xl': '1.875rem',
       '4xl': '2.25rem',
       '5xl': '3rem',
+      postTitle: '3.625rem',
       '6xl': '4rem',
     },
     fontWeight: {

@@ -5,8 +5,7 @@
   "main": "./src/index.js",
   "author": "Ronny <ronnyangelo.freites@gmail.com>",
   "scripts": {
-    "start": "webpack --help",
-    "dev": "webpack-dev-server --mode=development --env=development --watch",
+    "start": "webpack-dev-server --mode=development --env=development --watch",
     "build": "webpack-cli --mode=production --env=production"
   },
   "devDependencies": {
@@ -23,6 +22,7 @@
   },
   "dependencies": {
     "autoprefixer": "^9.7.4",
+    "axios": "^0.19.2",
     "tailwindcss": "^1.2.0"
   }
 }
